@@ -32,3 +32,8 @@ The opendata scraper should work for most websites that use the Open Data Networ
 2. Copy the URL excluding https:// and any slashes (i.e. only copy data.example.com, not https://data.example.com/pages)
 3. Run the program and input the city name and URL when asked
     - Input the city name as city_st (e.g. las_vegas_nv)
+
+## How to tell if a site is arcgis or opendata
+Click on the search field. If the word "Data" appears underneath, then the site likely uses arcgis.
+![](/assets/images/search.png)
+This site uses arcgis because the word "Data" appears.
